@@ -1,0 +1,251 @@
+.aside-container{
+    position: absolute;
+    right: 4rem;
+}
+
+.aside-view-all-songs{
+    position: absolute;
+    right: 2.5rem;
+    top: 0.4rem;
+    color: #505363;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.similar-artist-container{
+    margin-top: 20px;
+}
+.similar-artist-details-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.similar-artist-img-container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.similar-artist-details{
+
+    margin-left: 20px;
+}
+
+.similar-artist-header{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+#singer_name{
+    color: #707380;
+    font-size: 12px;
+    position: relative;
+    top: 0.7rem;
+    right: 0px;
+}
+
+.latest-song-controls {
+    position: relative;
+    left: 4rem;
+}
+
+.single-artist-playlist-container{
+    position: absolute;
+    top: 9rem;
+    left: 5rem;
+    width: 55%;
+    background-color: #141b41;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.single-artist-playlist-img-container img{
+    width: 280px;
+    height: 330px;
+}
+
+.single-artist-playlist-details{
+    /* margin-top: 3.5rem; */
+    margin: 3.5rem 25px 0px 25px;
+
+}
+
+.single-artist-playlist-header{
+    color: white;
+}
+
+.followers{
+    position: relative;
+    left: 21rem;
+    bottom: 1.4rem;
+    color: #b1b3c0;
+
+
+}
+
+.band-type p,
+.single-artist-playlist-description p{
+    color: #83869a;
+    font-family: sans-serif;
+}
+
+.band-type p{
+    margin: 5px 0px;
+    
+}
+.single-artist-playlist-description p{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.play-all-btn button{
+    padding: 10px 51px;
+    margin-top: 3rem;
+    background-image: linear-gradient(to right,#3825b0, #c148df);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.play-all-btn p,
+.follow{
+    color: #e5e6ea;
+    margin-top: 10px;
+}
+
+.follow{
+    position: relative;
+    font-size: 18px;
+    left: 14rem;
+    bottom: 4.2rem;
+}
+
+
+.single-artist-songs-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 5rem;
+    top: 31rem;
+}
+
+.single-artist-songs-details{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1a1e33;
+    height: 50px;
+    width: 700px;
+    margin-bottom: 10px;
+    padding: 8px 8px 8px 30px;
+}
+
+.single-artist-songs-container ol {
+    counter-reset: items;
+  }
+
+
+
+.single-artist-songs-container li{
+    display: inline-block;
+    counter-increment: items;
+    position: relative;
+    top: 1rem;
+
+    
+}
+
+
+.single-artist-songs-container li:before {
+    content: "0" counter(items);
+    color: lightgray;    
+  }
+
+
+
+.single-artist-songs-img-container img{
+    width: 50px;
+    position: relative;
+    left: 2rem;
+    bottom: 2.1rem;
+    border-radius: 5px;
+    
+}
+
+.single-artist-songs-header{
+    margin-left: 20px;
+
+
+}
+
+.single-artist-songs-header .song-name{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    left: 5rem;
+    bottom: 5.2rem;
+
+}
+
+.single-artist-songs-header .singer-name{
+    color: #a5a7ae;
+    font-size: 14px;
+    position: relative;
+    left: 5rem;
+    bottom: 4.9rem;
+}
+
+.single-artist-songs-details .playlist-icons{
+    position: relative;
+    left: 38rem;
+    bottom: 6.8rem;
+
+
+}
+
+.playlist-icons .fa-heart{
+    text-shadow: 0 0 4px #93a8b3;
+    color: #202439;
+    margin-right: 20px;
+}
+
+.playlist-icons .fa-heart:hover{
+    color: red;
+}
+
+.playlist-icons .fa-plus{
+    color:  #93a8b3;
+}
+
+.recently-played-songs-header{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.recently-played-view-all-songs{
+    display: inline-block;
+    position: absolute;
+    left: 20.5rem;
+    top: 23.5rem;
+    color: #505363;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+
+.like-icon-container .fa-heart{
+    position: absolute;
+    display: inline-block;
+    left: 2.5rem;
+}
+
+.music-player{
+visibility: visible;
+}
